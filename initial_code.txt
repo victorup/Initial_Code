@@ -1,0 +1,34 @@
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ echo "# victor" >> README.md
+git commit -m "first commit"
+git remote add origin https://github.com/victorup/victor.git
+git push -u origin master
+
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ git init
+Reinitialized existing Git repository in D:/myGitHub/.git/
+
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ git commit -m "first commit"
+[master (root-commit) c25dbea] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ git remote add origin https://github.com/victorup/victor.git
+fatal: remote origin already exists.
+
+wxphx@DESKTOP-TDSHJ2I MINGW64 /d/myGitHub (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:victorup/victor.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
